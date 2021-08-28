@@ -62,7 +62,7 @@
         let url = "https://api-sandbox.circle.com/v1/cards/";
 
         // open a connection
-        xhr.open("POST", url);
+        xhr.open("GET", url);
 
         xhr.onprogress = function () {
           document.getElementById("paymentProcessing").style.display = "block";
